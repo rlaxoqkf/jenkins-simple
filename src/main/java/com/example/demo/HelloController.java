@@ -8,6 +8,6 @@ public class HelloController {
     
     @GetMapping("/")
     public String home() {
-        return "GoodBye Jenkins!";
+        return "WebHook Jenkins!";
     }
 }
